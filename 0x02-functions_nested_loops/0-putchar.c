@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <holberton.h>
 
 /**
  * main - Entry point
@@ -7,5 +7,11 @@
  */
 int main(void)
 {
-	printf("_putchar \n";
+	char word[] = "_putchar";
+	int i;
+
+	for (i = 0; i < sizeof(word); i++)
+		_putchar(word[i]);
+	_putchar('\n');
+	return (0);
 }
