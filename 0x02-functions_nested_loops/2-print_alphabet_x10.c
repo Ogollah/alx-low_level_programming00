@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
  * print_alphabet_x10 - prints alphabets in lower cases 10x
- *
+ * Description: user nested for loop to print alphabet in lower case 10 times
  * Return: 0.
  */
 void print_alphabet_x10(void)
